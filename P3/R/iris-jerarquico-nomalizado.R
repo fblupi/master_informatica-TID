@@ -7,6 +7,9 @@ iris3=iris2[idx,]
 iris3
 iris3$Species=NULL
 iris3
+#normalizo iri3, Not3ese el uso y sintaxis del bucle
+for(j in 1:4) {x=iris3[,j] ; v=(x-mean(x))/sqrt(var(x)); iris3[,j]=v}
+iris3
 #calculo cluster jeraquico por el metodo de Ward, distancia euclidea
 hc=hclust(dist(iris3),method="ward.D2")
 hc
