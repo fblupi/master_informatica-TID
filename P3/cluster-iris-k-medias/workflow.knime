@@ -7,10 +7,10 @@
 <entry key="authored-by" type="xstring" value="fblupi"/>
 <entry key="authored-when" type="xstring" value="2016-11-04 18:07:58 +0100"/>
 <entry key="lastEdited-by" type="xstring" value="fblupi"/>
-<entry key="lastEdited-when" type="xstring" value="2016-11-04 18:23:07 +0100"/>
+<entry key="lastEdited-when" type="xstring" value="2016-11-04 18:46:49 +0100"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_1">
@@ -167,7 +167,7 @@
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xint" value="584"/>
-<entry key="1" type="xint" value="357"/>
+<entry key="1" type="xint" value="337"/>
 <entry key="2" type="xint" value="64"/>
 <entry key="3" type="xint" value="80"/>
 </config>

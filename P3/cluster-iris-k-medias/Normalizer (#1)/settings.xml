@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="mode" type="xstring" value="Z_SCORE"/>
+<entry key="mode" type="xstring" value="MINMAX"/>
 <entry key="new-min" type="xdouble" value="0.0"/>
 <entry key="new-max" type="xdouble" value="1.0"/>
 <config key="data-column-filter">
@@ -62,7 +62,7 @@
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.base.data.normalize.NormalizerPortObject"/>
-<entry key="port_object_summary" type="xstring" value="Z-Score (Gaussian) normalization on 4 column(s)"/>
+<entry key="port_object_summary" type="xstring" value="Min/Max (0.0, 1) normalization on 4 column(s)"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
@@ -70,6 +70,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="49e96d6b-1a66-4cc8-9516-51c9278ef139"/>
+<entry key="file_store_id" type="xstring" value="9fb16659-3209-4950-aca2-b9a4c8e98941"/>
 </config>
 </config>
