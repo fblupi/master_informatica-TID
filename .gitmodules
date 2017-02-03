@@ -1,0 +1,3 @@
+[submodule "nba-data-mining"]
+	path = nba-data-mining
+	url = git://github.com/fblupi/nba-data-mining
